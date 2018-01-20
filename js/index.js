@@ -27,7 +27,8 @@ $.ajax({
 	}
 })
 $.getScript("https://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",function(){
-		getFullWeather(remote_ip_info.city);
+		//getFullWeather(remote_ip_info.city);
+		getFullWeather("太原市");
 	});
 // 获取当前城市所有的城市信息
 function getFullWeather(nowcity){
